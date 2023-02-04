@@ -6,7 +6,7 @@ var cors = require('cors');
 
 const app = express();
 app.use(cors({
-  origin: 'https://trevor-familly.netlify.app/checkout',
+  origin: 'https://trevor-familly.netlify.app',
   methods: ['GET', 'POST']
 }));
 app.use(bodyParser.json());
